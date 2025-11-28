@@ -1,3 +1,5 @@
+local GPTLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/FAYU-HUB/GPTLib/refs/heads/main/LoadGPTlib.lua"))()
+
 local Home = GPTLib:CreateTab("Home")
 
 Home:Button("Test Button", function()
